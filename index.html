@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./image/Logo.png" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">About<i class="arrow down"></i></a>
+          </li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#">Start free trial</a></li>
+        </ul>
+      </nav>
+      <div class="burger-menu"><span></span></div>
+    </header>
+    <main>
+      <!-- Section First -->
+      <section class="section section-first">
+        <div class="col col-1">
+          <div class="purple-notation"></div>
+          <h2>
+            Your data with <br />
+            real-time analytics
+          </h2>
+          <p>
+            Harness the potential of Big Data Analytics & Cloud Services
+            <br />
+            and become a data-driven organization with Needle tail
+          </p>
+          <div class="container">
+            <button>Start free trial</button>
+            <button>Learn more</button>
+          </div>
+        </div>
+        <div class="col col-2">
+          <img src="./image/image-1.png" alt="image-1" />
+        </div>
+      </section>
+      <!-- Section Second -->
+      <section class="section section-second">
+        <div class="purple-notation"></div>
+        <h3>Get actionable insights from Big Data in 3 steps</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod<br />
+          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+          voluptua.
+        </p>
+        <!-- JS components -->
+        <div class="container">
+          <div class="col col-1">
+            <img src="./image/icons/chart-bar-33.png" alt="chart-bar" />
+            <h6>Valuable business insights</h6>
+            <p>
+              Collect processed & cleansed data that<br />
+              is ready to be analyzed to gather<br />
+              valuable business insights.
+            </p>
+          </div>
+          <div class="col col-2">
+            <img src="./image/icons/newsletter-dev.png" alt="newsletter-dev" />
+            <h6>Powerful Algorithms</h6>
+            <p>
+              With the help of powerful algorithms,<br />
+              quality rules & techniques, obtain<br />
+              simplified & enriched data.
+            </p>
+          </div>
+          <div class="col col-3">
+            <img src="./image/icons/timeline.png" alt="timeline" />
+            <h6>Data in real-time</h6>
+            <p>
+              Collect data in real-time from multiple<br />
+              channels and move it into a data lake, in<br />
+              its original format.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Section Third -->
+      <section class="section section-third">
+        <div class="col-1">
+          <img src="./image/image-3.png" alt="image-3" />
+        </div>
+        <div class="col-2">
+          <div class="purple-notation"></div>
+          <h3>Launch with the best stack</h3>
+          <p>
+            A centralized platform that integrates zillions of data sources<br />
+            using Big Data ELT (Extract, Load & Transform) that leaves<br />
+            no data behind
+          </p>
+        </div>
+      </section>
+      <!-- Section Fourth -->
+      <section class="section section-fourth">
+        <div class="col-1">
+          <img src="./image/image-2.png" alt="image-3" />
+        </div>
+        <div class="col-2">
+          <div class="purple-notation"></div>
+          <h3>Data-driven pipelines in minutes</h3>
+          <p>
+            Maintenance-free data pipelines with quick set-up and <br />
+            straight-forward deployments that are powered by a modern<br />
+            & scalable platform.
+          </p>
+        </div>
+      </section>
+      <!-- Section Fifth -->
+      <section class="section section-fifth">
+        <p>
+          "What I love about Qubly is the easy way we can collaborate even if
+          there is a lot<br />
+          of people involved in the process"
+        </p>
+        <figure>
+          <img src="./image/Profile.png" alt=profile"">
+          <figcaption>
+            Guillaume Cabane<br />
+            CTO @ BigSpring
+          </figcaption>
+        </figure>
+        <hr />
+        <!-- JS components -->
+        <div class="container-brends"></div>
+      </section>
+      <!-- Section Sixth -->
+      <section class="section section-sixth">
+        <div class="col col-1">
+          <h3>
+            See why the world’s best<br />
+            companies use Qubly to<br />
+            become truly data-driven.
+          </h3>
+          <p>Trusted by</p>
+          <img src="./image/Client logos.png" alt="client-logos" />
+        </div>
+        <div class="col col-2">
+          <input type="checkbox" id="check" />
+          <!-- form sign up -->
+          <form action="#" class="registration form">
+            <h6 class="sign">Sign Up</h6>
+            <input type="submit" name="start" value="Start your free trial" />
+            <label for="email"
+              ><input
+                type="text"
+                placeholder="Your primary email"
+                name="email"
+                required
+            /></label>
+            <label for="password"
+              ><input
+                type="number"
+                placeholder="Password"
+                min="0"
+                maxlength="10"
+                name="password"
+                required
+            /></label>
+            <label class="password-duplicate" for="password"
+              ><input
+                type="number"
+                placeholder="Re-type Password"
+                min="0"
+                maxlength="10"
+                name="password"
+                required
+            /></label>
+            <p>or</p>
+            <div class="google-btn">
+              <div class="google-icon-wrapper">
+                <img
+                  class="google-icon"
+                  src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                />
+              </div>
+              <p class="btn-text"><b>Sign in with google</b></p>
+            </div>
+            <hr />
+            <p>Already have an account? <label for="check">Login</label></p>
+          </form>
+          <!-- !-- sign in form -->
+          <form action="#" id="sign-in" class="login form">
+            <h6 class="sign">Sign In</h6>
+            <input type="submit" name="start" value="Start your free trial" />
+            <label for="email"
+              ><input
+                type="text"
+                placeholder="Your primary email"
+                name="email"
+                required
+            /></label>
+            <label for="password"
+              ><input
+                type="number"
+                placeholder="Password"
+                min="0"
+                maxlength="10"
+                name="password"
+                required
+            /></label>
+            <p>or</p>
+            <div class="google-btn">
+              <div class="google-icon-wrapper">
+                <img
+                  class="google-icon"
+                  src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                />
+              </div>
+              <p class="btn-text"><b>Sign in with google</b></p>
+            </div>
+            <hr />
+            <p class="switch-animation">
+              Don't have a account? <label for="check">Sign Up</label>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="col col-1-f">
+          <div class="logo">
+            <img src="./image/Logo.png" alt="logo" />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet,<br />
+            consectetuer adipiscing elit, sed <br />diam nonummy nibh euismod<br />
+            tincidunt ut laoreet dolore magna<br />
+            aliquam erat volutpat ut wisi enim<br />
+            ad minim
+          </p>
+          <div class="social-medias"></div>
+        </div>
+        <div class="col col-2-f"></div>
+        <div class="col col-3-f"></div>
+        <div class="col col-4-f"></div>
+        <div class="col col-5-f"></div>
+        <div class="col col-6-f">
+          <h6>Newsletter</h6>
+          <button>Email</button>
+        </div>
+      </div>
+      <h6 class="end">Rahul Rao</h6>
+    </footer>
+  </body>
+</html>
